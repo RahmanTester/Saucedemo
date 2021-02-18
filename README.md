@@ -50,9 +50,6 @@ public class SauceDemo_Test
 		}
 	     
 					}
-				  
-		
-	
 	
    //login with username & Password with excel
   
@@ -141,9 +138,7 @@ System.out.println(e.getMessage());
 }
 	}
 	
-	
-	
-	
+
 	@Test(priority=3)
 	public void AddProduct() throws InterruptedException, IOException
 
@@ -203,7 +198,7 @@ System.out.println(e.getMessage());
 		try
 		{
 			
-			//Filling Name & Address
+    //Filling Name & Address
 		   
 		WebElement Firstname = driver.findElement(By.id("first-name"));
 		Firstname.sendKeys("abdul");
